@@ -1,0 +1,42 @@
+Day 1 Objective:
+
+Build the foundation of a cybersecurity home lab using VirtualBox and Kali Linux. The goal of this project is to develop practical cybersecurity skills through hands on experience in a safe virtual enviornment
+
+Enviroment:
+
+Host Operating System: Windows
+Virtualization of Software: VirtualBox
+Guest Operating System: Kali Linux
+
+Tasks Completed:
+
+-Installed VirtualBox
+-Downloaded and configured Kali Linux
+-Successfully lauched a Kali Linux virtual machine
+-Created and managed files and directories
+-Used Nano to create abd edit text files
+-Viewed network configuration using 'ip a'
+-Verified the installation of Nmap
+
+Commands Used:
+
+ls
+pwd
+cd
+mkdir
+cat
+nano
+ip a
+nmap --version
+echo
+touch 
+
+Key Learning Outcomes:
+
+During this lab session, I gained practical experience in several key areas, including virtual machine deployment and management, Linux file system navigation, command-line interaction, file creation and editing, and basic networking concepts. 
+I also developed an understanding of common cybersecurity tools and their purposes, which helped strengthen my practical knowledge of cybersecurity and system administration.
+
+Reflection:
+
+Today I successfully configured Kali Linux within VirutalBox and established the foundation of any cybersecurity home lab.
+I practised basic Linux commands, managed files through the terminal, and verified that Nmap is installed and ready for future network scanning activities.
