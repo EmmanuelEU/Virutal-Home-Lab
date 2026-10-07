@@ -1,1 +1,91 @@
+Day 2: Linux Fundamentals
 
+Project Overview
+
+This lab focused on developing fundamental Linux skills through practical command-line usage. The objective was to become more comfortable navigating the Linux file system, managing files and directories, and using common terminal commands that are frequently used in cybersecurity environments.
+
+
+Environment
+
+
+| Host Operating System | Windows |
+
+| Virtualization Software | VirtualBox |
+
+| Guest Operating System | Kali Linux |
+
+
+
+Objectives
+
+- Navigate the Linux file system
+
+- Create and manage directories
+
+- Create, view, and edit files
+
+- Understand basic Linux commands
+
+- Develop confidence using the terminal
+
+
+
+Tasks Completed
+- Navigated directories using `cd`
+
+- Displayed current directory using `pwd`
+
+- Listed files and directories using `ls`
+
+- Created directories using `mkdir`
+
+- Created files using `touch`
+
+- Created and edited files using `nano`
+
+- Displayed file contents using `cat`
+
+- Renamed files using `mv`
+
+Commands Used
+
+pwd
+
+ls
+
+cd
+
+mkdir
+
+touch
+
+nano
+
+cat
+
+mv
+
+
+Skills Developed
+- Linux File System Navigation
+
+- Command Line Interface (CLI)
+
+- File Management
+
+- Directory Management
+
+- Basic System Administration
+
+- Problem Solving
+
+Key Learning Outcomes
+
+During this lab session, I gained practical experience navigating the Linux file system, creating and managing files and directories, editing text files through the terminal, and using several essential Linux commands. These skills form the foundation for many cybersecurity tasks, as Linux is widely used in security operations, penetration testing, and system administration environments.
+
+Reflection
+
+Today I continued building my cybersecurity home lab skills by focusing on Linux fundamentals. I improved my understanding of file system navigation, file management, and command-line interaction within Kali Linux. Becoming comfortable with the terminal is an important step towards performing more advanced cybersecurity activities such as network scanning, traffic analysis, and security monitoring.
+
+
+This repository documents my progress in cybersecurity through hands-on labs, practical exercises, and real-world tools.
