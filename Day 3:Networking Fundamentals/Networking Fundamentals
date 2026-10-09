@@ -1,0 +1,65 @@
+Day 3: Networking Fundamentals
+
+Project Overview
+This lab focused on understanding the fundamental networking concepts required for cybersecurity. The objective was to explore how devices communicate across a network, identify network configuration information within Kali Linux, and develop an understanding of IP addresses, network interfaces, DNS, and connectivity testing.
+
+Environment
+
+Component	Technology
+Host Operating System	Windows
+Virtualization Software	VirtualBox
+Guest Operating System	Kali Linux
+
+Objectives
+Understand basic networking concepts
+Identify network information in Kali Linux
+Explore IP addressing
+Learn how devices communicate across a network
+Understand DNS and connectivity testing
+Prepare for future network scanning activities
+Tasks Completed
+Examined network interfaces
+Identified the IPv4 address assigned to Kali Linux
+Explored routing information
+Tested network connectivity
+Investigated DNS resolution
+Identified the system hostname
+Explored active network connections
+
+Commands Used
+ip a
+ip route
+ping google.com
+nslookup google.com
+hostname
+ss -tuln
+
+Skills Developed
+
+Networking Fundamentals
+Linux Networking
+Network Troubleshooting
+DNS Awareness
+Connectivity Testing
+Cybersecurity Foundations
+Key Concepts Learned
+IP Addressing
+Every device connected to a network requires a unique address to send and receive information. Understanding device addressing is essential for network analysis and security investigations.
+
+Network Interfaces
+Network interfaces allow systems to communicate with other devices across a network. Examining interfaces helps identify how devices connect and exchange data.
+
+DNS
+Domain Name System (DNS) allows human-readable website names to be translated into numerical addresses that computers use for communication.
+
+Network Connectivity
+Testing connectivity helps verify whether two devices can successfully communicate across a network.
+
+Ports and Services
+Applications and services use ports to communicate across networks. Understanding ports is important when performing network analysis and security assessments.
+
+Key Learning Outcomes
+During this lab session, I gained practical experience exploring network configuration information within Kali Linux and learned how devices communicate across a network. I developed a stronger understanding of IP addresses, network interfaces, routing, DNS resolution, and connectivity testing. These concepts form the foundation for future cybersecurity activities such as network scanning, traffic analysis, and security monitoring.
+
+Reflection
+Today I focused on the networking concepts that support cybersecurity operations. By exploring network configuration information and testing connectivity, I developed a better understanding of how systems communicate and how network information can be identified and analyzed. This knowledge will be used in future labs involving Nmap, Wireshark, and security monitoring tools.
