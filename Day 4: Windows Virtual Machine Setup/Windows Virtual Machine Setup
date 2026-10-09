@@ -1,0 +1,57 @@
+Day 4: Windows Virtual Machine Setup
+
+Project Overview
+This lab focused on expanding the cybersecurity home lab by creating a Windows virtual machine within VirtualBox. The objective was to understand how multiple operating systems can operate within a virtualized environment and establish a target machine for future cybersecurity activities.
+
+Environment
+
+Host Operating System	Windows
+Virtualization Software	VirtualBox
+Guest Operating Systems	Kali Linux, Windows
+Network Type	Virtual Lab Environment
+
+Objectives
+
+Create a Windows virtual machine
+Configure virtual machine resources
+Explore basic Windows administration tools
+Understand user accounts and permissions
+Identify network configuration information
+Prepare a target system for future security testing
+
+Tasks Completed
+
+Created a Windows virtual machine using VirtualBox
+Allocated memory, storage, and processor resources
+Installed and configured Windows
+Explored Windows Settings and Control Panel
+Reviewed Task Manager and running processes
+Examined Windows Security settings
+Located system network information using Command Prompt
+Explored Event Viewer and available log categories
+
+Key Concepts Learned
+
+Virtual Machines
+Virtual machines allow multiple operating systems to run on a single physical computer. This provides an isolated environment for testing, learning, and security research without affecting the host operating system.
+
+User Accounts
+Windows uses user accounts to control access to system resources. Understanding account permissions is an important part of cybersecurity because access management plays a significant role in protecting systems from unauthorized activity.
+
+Event Logging
+Windows records system activity through logs. These logs can be used to investigate system events, security incidents, application activity, and user actions.
+
+Network Configuration
+Each machine connected to a network requires its own network configuration information. Understanding device communication is essential before performing network analysis and scanning activities.
+
+Commands Used
+
+ipconfig
+hostname
+Skills Developed
+Virtual Machine Management
+Windows Administration Fundamentals
+User Account Management
+Event Log Awareness
+Network Configuration Analysis
+Cybersecurity Lab Development
