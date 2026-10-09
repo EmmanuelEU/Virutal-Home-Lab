@@ -1,0 +1,62 @@
+Day 5: Network Discovery with Nmap
+
+Project Overview
+This lab focused on performing network discovery within the home lab environment using Nmap. The objective was to identify active hosts, examine network services, and gain a deeper understanding of how cybersecurity professionals gather information about systems on a network.
+
+Environment
+
+Component	Technology
+Host Operating System	Windows
+Virtualization Software	VirtualBox
+Attacker Machine	Kali Linux
+Target Machine	Windows Virtual Machine
+Network Tool	Nmap
+
+Objectives
+
+Verify communication between Kali Linux and Windows
+Identify the target system's IP address
+Perform network discovery
+Investigate open ports
+Identify available services
+Document findings
+
+Tasks Completed
+
+Identified the Windows virtual machine IP address
+Verified connectivity between lab systems
+Performed an Nmap scan
+Investigated open ports
+Performed service detection
+Recorded observations and findings
+
+Commands Used
+
+nmap <target-ip>
+nmap -sV <target-ip>
+
+Skills Developed
+
+Network Discovery
+Information Gathering
+Service Enumeration
+Basic Security Assessment
+Documentation and Reporting
+
+
+Key Concepts Learned
+
+Network Discovery
+Network discovery is the process of identifying systems connected to a network and collecting information about them.
+
+Ports
+Ports allow network-enabled applications and services to communicate. Identifying active ports helps security professionals understand how a system interacts with other devices.
+
+Services
+Services provide specific functionality on a system. Discovering active services helps build a picture of a system's purpose and potential attack surface.
+
+Key Learning Outcomes
+During this lab session, I gained practical experience using Nmap to perform network discovery and service identification. I learned how systems expose services through ports and how security professionals gather information during the reconnaissance phase of an assessment.
+
+Reflection
+Today I completed my first network discovery exercise using Nmap. This allowed me to observe how systems expose services across a network and understand the importance of identifying active communication channels before performing further analysis or security assessments.
