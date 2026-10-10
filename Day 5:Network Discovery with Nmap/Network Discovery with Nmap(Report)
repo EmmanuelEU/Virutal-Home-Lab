@@ -1,0 +1,74 @@
+Executive Summary
+This report documents a network discovery assessment performed within a controlled home lab environment. The objective was to identify active services exposed by a Windows virtual machine using Nmap and to develop a better understanding of network reconnaissance techniques.
+
+Scope
+Scanner: Kali Linux Virtual Machine
+Target: Windows Virtual Machine
+Tool Used: Nmap
+Environment: VirtualBox Home Lab
+
+Assessment Objectives
+
+The purpose of this assessment was to:
+
+Identify accessible hosts
+Discover open ports
+Identify running services
+Understand how systems communicate across networks
+Practice security documentation
+
+Methodology
+
+Step 1
+Identified the target system IP address using:
+
+ipconfig
+Step 2
+Performed a basic Nmap scan:
+
+nmap <target-ip>
+Step 3
+Performed service detection:
+
+nmap -sV <target-ip>
+Step 4
+Reviewed scan results and documented observations.
+
+Findings
+Open Ports Identified
+Port:Add your findings here		
+State:Open/Closed		
+Service:Service Name
+
+Services Observed
+Document the services identified during the scan.
+
+Example:
+
+Service 1
+Service 2
+Service 3
+
+Analysis
+During the assessment, several network services were identified on the target system.
+
+Questions considered during analysis:
+
+Why are these services available?
+Are they required for normal system operation?
+Could any services increase the attack surface?
+What information can be gathered from service detection?
+
+The scan demonstrated how Nmap can be used to gather information about a system before conducting further analysis.
+
+Lessons Learned
+During this exercise I learned:
+
+How Nmap performs network discovery
+The relationship between IP addresses and ports
+How services communicate over a network
+The importance of reconnaissance within cybersecurity
+How attackers and defenders can both use network scanning techniques
+
+Reflection
+This lab provided practical experience using Nmap to investigate a target system within a controlled environment. Through network discovery and service enumeration, I gained a better understanding of how systems expose services and how security professionals gather information during the early stages of an assessment.
